@@ -1,0 +1,22 @@
+doctype 5
+html
+  head
+    title Hello World
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    script(src='/javascripts/vendor/jquery.min.js');
+    script(src='/javascripts/vendor/handlebars.min.js');
+    script(src='/javascripts/vendor/underscore-min.js');
+    script(src='/javascripts/vendor/backbone-min.js');
+
+    script(src='/javascripts/main.js');
+
+    script(src='/javascripts/collections/users.js');
+    script(src='/javascripts/models/user.js');
+    script(src='/javascripts/router/app.js');
+    script(src='/javascripts/helpers/viewManager.js');
+    script(src='/javascripts/views/base.js');
+    script(src='/javascripts/views/home.js');
+    
+  body
+    block content
